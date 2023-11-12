@@ -1,2 +1,2 @@
 # Web-Developement-
-My work that I've been doing to learn web development using the Mern stack is contained in this repository.
+This repository contains the works that i am as a part of learning full stack webdevelopement using mern stack.
