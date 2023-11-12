@@ -6,7 +6,7 @@
     <title>My Webpage</title>
 </head>
 <body>
-    <h1>This is My first Webpage</h1>
+    <h1 id="top">Format Tags</h1>
     <p>Here is <b>Bold</b> text</p>
     <!-- The <strong> tag also make the text bold-->
     <p>Here is <i>italicised</i> text</p>
@@ -19,5 +19,99 @@
     <p>Here is some <mark>Marked</mark> text</p>
     <p>Here is some <small>small</small> text</p>
     <hr>
+
+    <h1>Unordered Lists</h1>
+    <ul>
+        <li><strong>First</strong></li>
+        <li><em>Second</em></li>
+        <li><ins>Third</ins></li>
+    </ul>
+    <hr>
+
+    <h1>Ordered List</h1>
+    <ol start="10">
+        <li><strong>First</strong></li>
+        <li><em>Second</em></li>
+        <li><ins>Third</ins></li>
+    </ol>
+    <ol reversed>
+        <li><strong>First</strong></li>
+        <li><em>Second</em></li>
+        <li><ins>Third</ins></li>
+    </ol>
+    <ol type="I">
+        <li><strong>Roman First</strong></li>
+        <li><em>Roman Second</em></li>
+        <li><ins>Roman Third</ins></li>
+    </ol>
+    <hr>
+
+    <h1>Image</h1>
+    <img src="image1.jpeg" alt="pic" width="200" height="100">
+    <hr>
+
+    <h1>Forms</h1>
+    <form action="">
+        <p>Username : <input type="text" placeholder="Enter Your Username"></p>
+        
+        <!--Checkbox-->
+        <p>Stay Signed in : <input type="checkbox"></p>
+
+        <!--Radio Button-->
+        <p>Choose your age group</p>
+        <p>Age > 18 : <input type="radio" name="age"></p>
+        <p>Age < 18 : <input type="radio" name="age"></p>
+
+        <!--Dropdown-->
+        <p>Select Favourite Food : 
+        <select>
+            <option>Pizza</option>
+            <option>French Fries</option>
+            <option>Coco Cola</option>
+        </select>
+        </p>
+
+        <!--Submit-->
+        <p><input type="submit" value="Click here to Submit"></p>
+
+    </form>
+    <hr>
+
+    <h1>Tables</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maths</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>92</td>
+            </tr>
+        </tbody>
+    </table>   
+    <hr>
+
+    <h1>Links</h1>
+    <p><a href="http://www.google.com">Google</a></p>
+    <p><a href="http://www.wikipedia.org"><img src="Wikipedia.png" alt="Wiki" width="200" height="150"></a></p>
+    <hr>
+
+    <h1>Html Entities</h1><!--To display Special Characters-->
+    &copy;&reg;
+    <hr>
+
+    <h1>IFrame</h1>
+    <iframe src="https://www.wikipedia.org/" frameborder="2" width="400" height="200"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/x3c1ih2NJEg?si=QtzyYckOLWKOmgL0" title="YouTube video player" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <hr>
+
+    <p><a href="#top">Back to the top</a></p>
 </body>
 </html>
